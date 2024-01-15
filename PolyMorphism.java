@@ -32,7 +32,7 @@ public class PolyMorphism {
        PassengerPlane pp=new PassengerPlane();
        AirPort ap=new AirPort();
        ap.permit(pp);//reference Plane plane Plane is parent class
-       
        ap.permit(cp);
     }
 }
+//directly using parent type ref you cannot call child class specilaized method
